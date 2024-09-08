@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+# Node modules for both client and server
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build directories
+build/
+dist/
+client/build/
+server/dist/
+
+# Ignore environment variable files (client & server)
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+*.lock
+yarn.lock
+package-lock.json
+
+# Static and assets
+public/assets/
+client/public/assets/
+
+# Ignore Vercel files
+.vercel/
