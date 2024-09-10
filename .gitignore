@@ -44,8 +44,7 @@ yarn.lock
 package-lock.json
 
 # Static and assets
-public/assets/
-client/public/assets/
+
 
 # Ignore Vercel files
 .vercel/
