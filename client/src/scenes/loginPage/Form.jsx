@@ -262,7 +262,7 @@ const Form = () => {
               }}
             >
               {isLogin
-                ? "Don't have an account? Sign Up here." + `${process.env.REACT_APP_NOT_SECRET_CODE}` 
+                ? "Don't have an account? Sign Up here."
                 : "Already have an account? Login here."}
             </Typography>
           </Box>
